@@ -1,0 +1,14 @@
+{
+  "eslint.workingDirectories": ["./src"],
+  "javascript.suggestionActions.enabled": false,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
